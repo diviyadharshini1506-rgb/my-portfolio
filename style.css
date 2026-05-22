@@ -10,42 +10,55 @@ body {
     color: white;
     line-height: 1.6;
     padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 h1 {
     font-size: 3rem;
-    margin-bottom: 10px;
     color: #00ffcc;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 2rem;
-    margin: 30px 0 15px 0;
     color: #a5b4fc;
+    margin: 40px 0 20px 0;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 10px;
 }
 
-p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+.project {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 15px 0;
+    border-left: 6px solid #00ffcc;
 }
 
-ul {
-    list-style: none;
+.project:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.15);
+    transition: 0.3s;
 }
 
 ul li {
     background: rgba(255,255,255,0.1);
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 15px;
+    margin: 10px 0;
     border-radius: 8px;
     border-left: 5px solid #00ffcc;
-}
-
-/* Navbar simple */
-nav {
-    background: rgba(0,0,0,0.3);
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    text-align: center;
 }
